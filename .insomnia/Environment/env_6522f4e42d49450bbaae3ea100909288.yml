@@ -1,0 +1,18 @@
+_id: env_6522f4e42d49450bbaae3ea100909288
+type: Environment
+parentId: env_c36a5876a904100d869db8d39bb5dd11cc229a8b
+modified: 1680509104862
+created: 1680240096787
+name: New Environment
+data:
+  protocol: http
+  port: 1939
+  jwt: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhMSIsImV4cCI6MTY4MDUxNTA5MSwicm9sZXMiOiJVU0VSIiwibG9naW4iOiJhMSJ9.WyRtSprEhhjkwJbzUjNha-5_b8fg6yZWQZpY4yosToLC4so3LaIiMKBQt4Uw51qRZSadsuWGWtw-LxBB_ip96A
+dataPropertyOrder:
+  "&":
+    - protocol
+    - port
+    - jwt
+color: "#d10000"
+isPrivate: false
+metaSortKey: 1680240096787

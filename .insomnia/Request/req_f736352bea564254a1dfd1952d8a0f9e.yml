@@ -1,0 +1,34 @@
+_id: req_f736352bea564254a1dfd1952d8a0f9e
+type: Request
+parentId: wrk_d69e2ca5ae3c4971a3d4953f1fa6d272
+modified: 1680493504909
+created: 1680258147997
+url: "{{ _.base_url }}/match/1/bet"
+name: Add bet for match
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sum" : 4.0,
+    	"horseId": 1,
+    	"betToHorse": "First"
+    }
+parameters: []
+headers:
+  - name: Content-type
+    value: application/json
+    id: pair_a178f5456759449dabf8aa279fc673b9
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+  prefix: Bearer
+metaSortKey: -1680247803196.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

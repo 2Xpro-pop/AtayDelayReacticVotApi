@@ -1,0 +1,24 @@
+_id: env_c36a5876a904100d869db8d39bb5dd11cc229a8b
+type: Environment
+parentId: wrk_d69e2ca5ae3c4971a3d4953f1fa6d272
+modified: 1680249134800
+created: 1680239612213
+name: Base Environment
+data:
+  protocol: https
+  host: localhost
+  port: 8080
+  base_url: "{{ _.protocol }}://{{ _.host }}:{{ _.port }}"
+  jwt: und
+  jwt_header: Bearer {{ _.jwt }}
+dataPropertyOrder:
+  "&":
+    - protocol
+    - host
+    - port
+    - base_url
+    - jwt
+    - jwt_header
+color: null
+isPrivate: false
+metaSortKey: 1680239612213

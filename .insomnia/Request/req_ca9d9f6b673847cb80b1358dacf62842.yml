@@ -1,0 +1,33 @@
+_id: req_ca9d9f6b673847cb80b1358dacf62842
+type: Request
+parentId: wrk_d69e2ca5ae3c4971a3d4953f1fa6d272
+modified: 1680249161635
+created: 1680239692393
+url: "{{ _.base_url }}/auth/register"
+name: Register User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login": "a1",
+    	"name": "Andre",
+    	"password": 11
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+  prefix: Bearer
+metaSortKey: -1680239692393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

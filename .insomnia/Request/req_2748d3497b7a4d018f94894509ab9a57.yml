@@ -1,0 +1,24 @@
+_id: req_2748d3497b7a4d018f94894509ab9a57
+type: Request
+parentId: wrk_d69e2ca5ae3c4971a3d4953f1fa6d272
+modified: 1680495361558
+created: 1680493768233
+url: "{{ _.base_url }}/user/"
+name: Get User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+  prefix: Bearer
+metaSortKey: -1680239692293
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

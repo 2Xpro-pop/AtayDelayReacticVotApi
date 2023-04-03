@@ -1,0 +1,31 @@
+_id: req_3762a29fe4804a4e9fa7cb0260d5bc85
+type: Request
+parentId: wrk_d69e2ca5ae3c4971a3d4953f1fa6d272
+modified: 1680498353682
+created: 1680265233736
+url: "{{ _.base_url }}/admin/horse"
+name: Admin Add horse
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "Sweety2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+  prefix: Bearer
+metaSortKey: -1680251933151.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

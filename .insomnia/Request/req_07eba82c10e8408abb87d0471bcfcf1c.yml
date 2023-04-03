@@ -1,0 +1,28 @@
+_id: req_07eba82c10e8408abb87d0471bcfcf1c
+type: Request
+parentId: wrk_d69e2ca5ae3c4971a3d4953f1fa6d272
+modified: 1680252328620
+created: 1680252323726
+url: "{{ _.base_url }}/match/"
+name: get mathces
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+  prefix: Bearer
+metaSortKey: -1680245066461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

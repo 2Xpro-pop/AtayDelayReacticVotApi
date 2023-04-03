@@ -1,0 +1,31 @@
+_id: req_d210af7099e54b4384f14aa4ec8281bd
+type: Request
+parentId: wrk_d69e2ca5ae3c4971a3d4953f1fa6d272
+modified: 1680493748373
+created: 1680493701956
+url: "{{ _.base_url }}/admin/match/1/horse"
+name: Admin Add horse for match
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"horseId" : 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+  prefix: Bearer
+metaSortKey: -1680252629760.9531
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
